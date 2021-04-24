@@ -36,11 +36,11 @@ set conf.nd=200;
 set conf.TrainTag = True;
 
 2. Open readerDisguise.py
-3. 
+
 set shuffle=True in def get_batch
 
 3. Run TrainPV_disguise.py
-4. 
+
 the trained model will be saved in saved_modelDisguise
 
 ---------------------------------------------------------------------------
