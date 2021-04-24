@@ -6,7 +6,7 @@ This work was submitted to IEEE Transactions on Neural Networks and Learning Sys
 
 The PEAL dataset can be downloaded in the link (https://drive.google.com/file/d/1OqAA81yUXbyRIh0c8EJFAnOFbmvBGNMH/view?usp=sharing).
 
-The trained DisP+V model can be downloaded in the link (https://drive.google.com/file/d/1IliSX7Ma3D2F47P27eyz8Nlg0k_Q0I5u/view?usp=sharing).
+The trained DisP+V model can be downloaded in the link (https://drive.google.com/file/d/1ALlTC23XwxJ9VH8nDJ22lvns5wWN3o3G/view?usp=sharing).
 
 
 --------------------------------------------------------------------------------
