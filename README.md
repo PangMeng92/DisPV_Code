@@ -64,9 +64,14 @@ set shuffle=False in def get_batch
 3. Run Gen_PV.py
 choose a trained model (e.g., E340), and load it in def generateImg
 
+--------------------------------------------------------------------------------
 PEAL_ori_test: input face images 
+
 PEAL_genpro_test: generated prototype images 
+
 PEAL_genvar_test: generated variation images 
+
 PEAL_genori_test: reconstructed face images 
+
 PEAL_pro_test: true prototype images
 
