@@ -46,7 +46,7 @@ the trained model will be saved in saved_modelDisguise
 ---------------------------------------------------------------------------
 Face editing/interpolation
 
-1. Open configPV_disguise.py 
+Step 1. Open configPV_disguise.py 
 
 set con.batch_size =1;
 
@@ -60,13 +60,13 @@ set conf.file1='./dataset/LoadPEALB.txt';
 
 set conf.TrainTag = False;
 
-2. Open readerDisguise.py
+Step 2. Open readerDisguise.py
 
 set shuffle=False in def get_batch
 
 set shuffle=True in def get_batch1
 
-3. Run FaceEdit.py
+Step 3. Run FaceEdit.py
 
 choose a trained model (e.g., E340), and load it in def generateNewFace
 
