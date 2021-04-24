@@ -23,7 +23,7 @@ PEAL_pro_test: true prototype images
 ------------------------------------------------------------------------
 Train DisP+V model:
 
-1. Open configPV_disguise.py 
+Step 1. Open configPV_disguise.py 
 
 set con.batch_size =16;
 
@@ -35,11 +35,11 @@ set conf.nd=200;
 
 set conf.TrainTag = True;
 
-2. Open readerDisguise.py
+Step 2. Open readerDisguise.py
 
 set shuffle=True in def get_batch
 
-3. Run TrainPV_disguise.py
+Step 3. Run TrainPV_disguise.py
 
 the trained model will be saved in saved_modelDisguise
 
@@ -75,7 +75,7 @@ All images are saved in PEAL_gennew_test folder
 --------------------------------------------------------------------------
 Generate prototype, variation, and reconstrued images
 
-1. Open configPV_disguise.py 
+Steo 1. Open configPV_disguise.py 
 
 set con.batch_size =1;
 
@@ -85,11 +85,11 @@ set conf.file='./dataset/LoadPEAL5.txt';
 
 set conf.TrainTag = False;
 
-2. Open readerDisguise.py
+Step 2. Open readerDisguise.py
 
 set shuffle=False in def get_batch
 
-3. Run Gen_PV.py
+Step 3. Run Gen_PV.py
 
 choose a trained model (e.g., E340), and load it in def generateImg
 
