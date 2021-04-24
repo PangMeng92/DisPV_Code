@@ -26,9 +26,13 @@ Train DisP+V model:
 Step 1. Open configPV_disguise.py 
 
 set con.batch_size =16;
+
 set conf.epochs = 1000;
+
 set conf.file='./dataset/LoadPEAL200.txt';
+
 set conf.nd=200;
+
 set conf.TrainTag = True;
 
 Step 2. Open readerDisguise.py
