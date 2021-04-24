@@ -43,6 +43,27 @@ Step 3. Run TrainPV_disguise.py
 
 the trained model will be saved in saved_modelDisguise
 
+--------------------------------------------------------------------------
+Generate prototype, variation, and reconstrued images
+
+Steo 1. Open configPV_disguise.py 
+
+set con.batch_size =1;
+
+set conf.epochs = 1;
+
+set conf.file='./dataset/LoadPEAL5.txt';
+
+set conf.TrainTag = False;
+
+Step 2. Open readerDisguise.py
+
+set shuffle=False in def get_batch
+
+Step 3. Run Gen_PV.py
+
+choose a trained model (e.g., E340), and load it in def generateImg
+
 ---------------------------------------------------------------------------
 Face editing/interpolation
 
@@ -69,26 +90,7 @@ Step 3. Run FaceEdit.py
 
 choose a trained model (e.g., E340), and load it in def generateNewFace
 
---------------------------------------------------------------------------
-Generate prototype, variation, and reconstrued images
 
-Steo 1. Open configPV_disguise.py 
-
-set con.batch_size =1;
-
-set conf.epochs = 1;
-
-set conf.file='./dataset/LoadPEAL5.txt';
-
-set conf.TrainTag = False;
-
-Step 2. Open readerDisguise.py
-
-set shuffle=False in def get_batch
-
-Step 3. Run Gen_PV.py
-
-choose a trained model (e.g., E340), and load it in def generateImg
 
 
 
