@@ -1,4 +1,4 @@
-# DisP-V_TNNLS_Code
+# DisPV_TNNLS_Code
 
 Disentangled Prototype Plus Variation Model (DisP+V).
 
