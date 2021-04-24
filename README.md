@@ -19,9 +19,9 @@ PEAL_genori_test: reconstructed face images
 PEAL_pro_test: true prototype images for reference
 
 ------------------------------------------------------------------------
-# Train DisP+V model:
+## Train DisP+V model:
 
-Step 1. Open configPV_disguise.py 
+### Step 1. Open configPV_disguise.py 
 
 set con.batch_size =16;
 
@@ -33,18 +33,18 @@ set conf.nd=200;
 
 set conf.TrainTag = True;
 
-Step 2. Open readerDisguise.py
+### Step 2. Open readerDisguise.py
 
 set shuffle=True in def get_batch
 
-Step 3. Run TrainPV_disguise.py
+### Step 3. Run TrainPV_disguise.py
 
 the trained model will be saved in saved_modelDisguise
 
 --------------------------------------------------------------------------
-Generate prototype, variation, and reconstrued images
+## Generate prototype, variation, and reconstrued images
 
-Steo 1. Open configPV_disguise.py 
+### Steo 1. Open configPV_disguise.py 
 
 set con.batch_size =1;
 
@@ -54,20 +54,21 @@ set conf.file='./dataset/LoadPEAL5.txt';
 
 set conf.TrainTag = False;
 
-Step 2. Open readerDisguise.py
+### Step 2. Open readerDisguise.py
 
 set shuffle=False in def get_batch
 
-Step 3. Run Gen_PV.py
+### Step 3. Run Gen_PV.py
 
 choose a trained model (e.g., E340), and load it in def generateImg
 
 ---------------------------------------------------------------------------
-Face editing/interpolation
+## Face editing/interpolation
 
-Step 1. Open configPV_disguise.py 
+### Step 1. Open configPV_disguise.py 
 
 set con.batch_size =1;
+
 set conf.epochs = 1;
 
 set conf.file='./dataset/LoadPEALA.txt';    % Face edit, the input face is a standard image
@@ -78,13 +79,13 @@ set conf.file1='./dataset/LoadPEALB.txt';
 
 set conf.TrainTag = False;
 
-Step 2. Open readerDisguise.py
+### Step 2. Open readerDisguise.py
 
 set shuffle=False in def get_batch
 
 set shuffle=True in def get_batch1
 
-Step 3. Run FaceEdit.py
+### Step 3. Run FaceEdit.py
 
 choose a trained model (e.g., E340), and load it in def generateNewFace
 
