@@ -69,8 +69,6 @@ Step 3. Run FaceEdit.py
 
 choose a trained model (e.g., E340), and load it in def generateNewFace
 
-All images are saved in PEAL_gennew_test folder
-
 --------------------------------------------------------------------------
 Generate prototype, variation, and reconstrued images
 
