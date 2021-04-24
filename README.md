@@ -19,7 +19,7 @@ PEAL_genori_test: reconstructed face images
 PEAL_pro_test: true prototype images for reference
 
 ------------------------------------------------------------------------
-Train DisP+V model:
+# Train DisP+V model:
 
 Step 1. Open configPV_disguise.py 
 
