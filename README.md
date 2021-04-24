@@ -9,9 +9,16 @@ The PEAL dataset can be downloaded in the link (https://drive.google.com/file/d/
 The trained DisP+V model can be downloaded in the link (https://drive.google.com/file/d/1IliSX7Ma3D2F47P27eyz8Nlg0k_Q0I5u/view?usp=sharing).
 
 
+--------------------------------------------------------------------------------
+PEAL_ori_test: input face images 
 
+PEAL_genpro_test: generated prototype images 
 
-Taking CAS-PEAL for example:
+PEAL_genvar_test: generated variation images 
+
+PEAL_genori_test: reconstructed face images 
+
+PEAL_pro_test: true prototype images
 
 ------------------------------------------------------------------------
 Train DisP+V model:
@@ -64,14 +71,6 @@ set shuffle=False in def get_batch
 3. Run Gen_PV.py
 choose a trained model (e.g., E340), and load it in def generateImg
 
---------------------------------------------------------------------------------
-PEAL_ori_test: input face images 
 
-PEAL_genpro_test: generated prototype images 
 
-PEAL_genvar_test: generated variation images 
-
-PEAL_genori_test: reconstructed face images 
-
-PEAL_pro_test: true prototype images
-
+The software is free for academic use, and shall not be used, rewritten, or adapted as the basis of a commercial product without first obtaining permission from the authors. The authors make no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
