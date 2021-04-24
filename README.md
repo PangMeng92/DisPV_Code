@@ -18,7 +18,7 @@ PEAL_genvar_test: generated variation images
 
 PEAL_genori_test: reconstructed face images 
 
-PEAL_pro_test: true prototype images
+PEAL_pro_test: true prototype images for reference
 
 ------------------------------------------------------------------------
 Train DisP+V model:
