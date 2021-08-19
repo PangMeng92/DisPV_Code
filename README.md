@@ -2,7 +2,7 @@
 
 Disentangled Prototype Plus Variation Model (DisP+V).
 
-This work was submitted to IEEE Transactions on Neural Networks and Learning Systems (TNNLS). In this package, we implement our DisP+V using Pytorch, and train/test the DisP+V model on CAS-PEAL (disguise) dataset.
+This work has been accepted by IEEE Transactions on Neural Networks and Learning Systems (TNNLS). In this package, we implement our DisP+V using Pytorch, and train/test the DisP+V model on CAS-PEAL (disguise) dataset.
 
 The trained DisP+V model can be downloaded in the link (https://drive.google.com/file/d/1ALlTC23XwxJ9VH8nDJ22lvns5wWN3o3G/view?usp=sharing).
 
