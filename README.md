@@ -91,6 +91,8 @@ choose a trained model (e.g., E340), and load it in def generateNewFace
 
 
 
+If you find this software useful and use it in your own work, please cite our paper:
 
+[1] Meng Pang, Binghui Wang, Mang Ye, Yiu-ming Cheung, Yiran Chen, and Bihan Wen, “DisP+V: A Unified Framework for Disentangling Prototype and Variation from Single Sample per Person”, IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2021, DOI: 10.1109/TNNLS.2021.3103194.
 
 The software is free for academic use, and shall not be used, rewritten, or adapted as the basis of a commercial product without first obtaining permission from the authors. The authors make no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
